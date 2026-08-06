@@ -3,131 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FOYU - Máy Lạnh Daikin, Máy Lọc Không Khí & Robot Vệ Sinh Chính Hãng</title>
+    <title>FOYU - Giải Pháp Không Khí Toàn Diện Daikin Chính Hãng</title>
     <meta name="description" content="CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ FOYU chuyên phân phối giải pháp không khí toàn diện: Máy lạnh Daikin, máy lọc không khí Streamer, robot vệ sinh tự động thông minh.">
     <link rel="stylesheet" href="style.css">
-    <!-- Nhúng font chữ Inter chuyên nghiệp, tải nhanh -->
     <link href="https://googleapis.com" rel="stylesheet">
 </head>
 <body>
 
-    <!-- THANH DIỀU HƯỚNG (HEADER & NAVBAR) -->
+    <!-- THANH MENU ĐÃ CÂN CHỈNH LOGO Ở GIỮA VÀ BỎ HOTLINE -->
     <header class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo-area">
-                <!-- File ảnh logo.png đặt chung thư mục code trên GitHub -->
+            <nav class="nav-links nav-left">
+                <a href="#home">Trang Chủ</a>
+                <a href="#products">Sản Phẩm</a>
+            </nav>
+            
+            <!-- Logo đặt ở giữa cân đối giống hình mẫu Daikin -->
+            <a href="#" class="logo-center-area">
                 <img src="logo.png" alt="FOYU Logo" class="site-logo">
                 <div class="logo-text">
                     <span class="brand-name">FOYU</span>
                     <span class="tagline">PRECIOUS FLOW</span>
                 </div>
             </a>
-            <nav class="nav-links">
-                <a href="#home">Trang Chủ</a>
-                <a href="#products">Sản Phẩm</a>
-                <a href="#tech-specs">Thông Số Kỹ Thuật</a>
+
+            <nav class="nav-links nav-right">
+                <a href="#tech-specs">Giải Pháp</a>
                 <a href="#contact">Liên Hệ</a>
             </nav>
-            <a href="tel:18006777" class="hotline-btn">Hotline: 1800 6777</a>
         </div>
     </header>
 
-    <!-- BANNER CHÀO MỪNG (HERO SECTION) -->
+    <!-- BANNER CHÍNH (HERO SECTION) -->
     <section id="home" class="hero">
         <div class="container hero-wrapper">
             <div class="hero-text">
                 <span class="badge">Perfecting The Air</span>
                 <h1>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ FOYU</h1>
-                <p>Nâng tầm chất lượng không gian sống với hệ thống máy lạnh Daikin tiết kiệm điện, giải pháp lọc khí bụi mịn thông minh và công nghệ robot vệ sinh tự động hiện đại nhất.</p>
+                <p>SỐNG ĐÚNG ẨM, SỐNG LÝ TƯỞNG - TỰ ĐỘNG BẬT TẮT TỪ XA VỚI CÔNG NGHỆ GPS INTERLOCK</p>
                 <div class="hero-actions">
                     <a href="#products" class="btn btn-primary">Khám Phá Sản Phẩm</a>
-                    <a href="#contact" class="btn btn-secondary">Nhận Tư Vấn Miễn Phí</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- KHU VỰC TRƯNG BÀY SẢN PHẨM & THÔNG SỐ (PRODUCTS SECTION) -->
+    <!-- DANH MỤC SẢN PHẨM (BỔ SUNG MODEL & HÌNH ẢNH CHI TIẾT) -->
     <section id="products" class="products-section">
         <div class="container">
             <div class="section-header">
-                <h2>Danh Mục Sản Phẩm Phân Phối</h2>
-                <p>Thông tin hình ảnh, bảng giá và thông số kỹ thuật minh bạch tương tự Daikin Việt Nam</p>
+                <h2>Hệ Thống Sản Phẩm Phân Phối Chính Hãng</h2>
+                <p>Thông tin hình ảnh, model chi tiết và bảng giá niêm yết từ nhà máy</p>
             </div>
 
             <div class="products-grid">
                 
-                <!-- Sản phẩm 1: Máy lạnh Daikin -->
+                <!-- Model 1: FTKB25WAVMV -->
                 <div class="product-item">
                     <div class="product-img">
-                        <img src="https://unsplash.com" alt="Máy lạnh Daikin">
-                        <span class="tag-status is-sale">Bán Chạy</span>
+                        <!-- Ảnh chi tiết dàn lạnh và remote phối cảnh -->
+                        <img src="https://unsplash.com" alt="Máy lạnh Daikin FTKB25WAVMV">
+                        <span class="tag-status is-sale">Inverter 2026</span>
                     </div>
                     <div class="product-detail">
+                        <span class="model-code">Model: FTKB25WAVMV (Chính hãng)</span>
                         <h3>Điều Hòa Treo Tường Daikin Inverter 1.0 HP</h3>
                         <div class="price-box">
                             <span class="current-price">10.490.000 đ</span>
                             <span class="old-price">11.900.000 đ</span>
                         </div>
-                        
-                        <!-- Khung thông số kỹ thuật thu nhỏ -->
                         <div class="mini-specs">
-                            <h4>Thông số kỹ thuật chính:</h4>
+                            <h4>Thông số chi tiết model:</h4>
                             <ul>
-                                <li><strong>Công suất:</strong> 1.0 HP - 9.200 BTU</li>
-                                <li><strong>Loại gas:</strong> R-32 thân thiện môi trường</li>
-                                <li><strong>Công nghệ:</strong> Tiết kiệm điện Inverter, Mắt thần thông minh</li>
-                                <li><strong>Lọc khí:</strong> Phin lọc Enzyme Blue chống nấm mốc</li>
+                                <li><strong>Công suất làm lạnh:</strong> 1.0 HP - 9.200 BTU</li>
+                                <li><strong>Mức tiêu thụ điện:</strong> Khoảng 0.82 kW/h (Đạt chuẩn 5 sao)</li>
+                                <li><strong>Môi chất lạnh:</strong> Gas R-32 thế hệ mới tối ưu hiệu suất</li>
+                                <li><strong>Tính năng độc quyền:</strong> Mắt thần thông minh tiêu chuẩn</li>
                             </ul>
                         </div>
-                        <a href="https://zalo.me" target="_blank" class="action-btn">Liên Hệ Báo Giá Bán Buôn</a>
+                        <a href="https://zalo.me" target="_blank" class="action-btn">Nhận Báo Giá Lắp Đặt</a>
                     </div>
                 </div>
 
-                <!-- Sản phẩm 2: Máy lọc không khí -->
+                <!-- Model 2: FTKY35WAVMV -->
                 <div class="product-item">
                     <div class="product-img">
-                        <img src="https://unsplash.com" alt="Máy lọc không khí Daikin">
-                        <span class="tag-status is-new">Công Nghệ Mới</span>
+                        <img src="https://unsplash.com" alt="Máy lạnh Daikin FTKY35WAVMV">
+                        <span class="tag-status is-new">Cao Cấp</span>
                     </div>
                     <div class="product-detail">
-                        <h3>Máy Lọc Không Khí Daikin Streamer</h3>
+                        <span class="model-code">Model: FTKY35WAVMV (Lọc khí Streamer)</span>
+                        <h3>Điều Hòa Treo Tường Daikin Inverter 1.5 HP</h3>
                         <div class="price-box">
-                            <span class="current-price">4.850.000 đ</span>
+                            <span class="current-price">15.250.000 đ</span>
                         </div>
                         <div class="mini-specs">
-                            <h4>Thông số kỹ thuật chính:</h4>
+                            <h4>Thông số chi tiết model:</h4>
                             <ul>
-                                <li><strong>Phạm vi lọc:</strong> Phòng dưới 31 m²</li>
-                                <li><strong>Màng lọc:</strong> HEPA tĩnh điện độ bền lên tới 10 năm</li>
-                                <li><strong>Công nghệ độc quyền:</strong> Phóng điện Streamer phân hủy virus</li>
-                                <li><strong>Cảm biến:</strong> Bụi mịn PM2.5, mùi hôi và độ ẩm tự động</li>
+                                <li><strong>Công suất làm lạnh:</strong> 1.5 HP - 11.900 BTU</li>
+                                <li><strong>Công nghệ sạch:</strong> Phóng điện Streamer diệt khuẩn độc quyền</li>
+                                <li><strong>Cân bằng ẩm:</strong> Chức năng Hybrid Cooling giữ ẩm làn da</li>
+                                <li><strong>Luồng gió:</strong> Gió Coanda phân bổ đều khắp trần nhà</li>
                             </ul>
                         </div>
-                        <a href="https://zalo.me" target="_blank" class="action-btn">Liên Hệ Báo Giá Bán Buôn</a>
+                        <a href="https://zalo.me" target="_blank" class="action-btn">Nhận Báo Giá Lắp Đặt</a>
                     </div>
                 </div>
 
-                <!-- Sản phẩm 3: Robot vệ sinh -->
+                <!-- Model 3: MC55UVM6 -->
                 <div class="product-item">
                     <div class="product-img">
-                        <img src="https://unsplash.com" alt="Robot vệ sinh tự động">
+                        <img src="https://unsplash.com" alt="Máy lọc không khí Daikin MC55UVM6">
                     </div>
                     <div class="product-detail">
-                        <h3>Robot Vệ Sinh Tự Động Thông Minh FOYU AI</h3>
+                        <span class="model-code">Model: MC55UVM6 (Tạo ẩm tự động)</span>
+                        <h3>Máy Lọc Không Khí Daikin Nhập Khẩu</h3>
                         <div class="price-box">
-                            <span class="current-price">12.900.000 đ</span>
+                            <span class="current-price">6.850.000 đ</span>
                         </div>
                         <div class="mini-specs">
-                            <h4>Thông số kỹ thuật chính:</h4>
+                            <h4>Thông số chi tiết model:</h4>
                             <ul>
-                                <li><strong>Lực hút tối đa:</strong> 4000 Pa dọn sạch bụi khe sàn</li>
-                                <li><strong>Dung lượng Pin:</strong> 5200 mAh (Hoạt động liên tục 180 phút)</li>
-                                <li><strong>Tiện ích trạm sạc:</strong> Tự động đổ rác, giặt giẻ bằng nước nóng</li>
-                                <li><strong>Điều hướng:</strong> Cảm biến LiDAR và camera né vật cản AI</li>
+                                <li><strong>Diện tích sử dụng:</strong> Tối ưu cho phòng khách dưới 41m²</li>
+                                <li><strong>Bộ lọc tích hợp:</strong> HEPA tĩnh điện siêu bền bỉ</li>
+                                <li><strong>Cảm biến thông minh:</strong> Phát hiện hạt bụi siêu mịn PM2.5</li>
+                                <li><strong>Độ ồn hoạt động:</strong> Cực êm ái, chỉ từ 19 dB</li>
                             </ul>
                         </div>
-                        <a href="https://zalo.me" target="_blank" class="action-btn">Liên Hệ Báo Giá Bán Buôn</a>
+                        <a href="https://zalo.me" target="_blank" class="action-btn">Nhận Báo Giá Lắp Đặt</a>
                     </div>
                 </div>
 
@@ -135,24 +138,23 @@
         </div>
     </section>
 
-    <!-- LIÊN HỆ ĐĂNG KÝ (CONTACT SECTION) -->
+    <!-- LIÊN HỆ ĐĂNG KÝ VÀ FORM -->
     <section id="contact" class="contact-area">
         <div class="container contact-wrapper">
             <div class="contact-text">
                 <h2>Kết Nối Với FOYU</h2>
-                <p>Quý đối tác, đại lý và khách hàng có nhu cầu tư vấn giải pháp điều hòa, kho lạnh thương mại hoặc đặt mua thiết bị công nghệ số lượng lớn, vui lòng để lại thông tin hoặc liên hệ trực tiếp.</p>
+                <p>Hỗ trợ tư vấn giải pháp điều hòa trung tâm VRV, lắp đặt máy lạnh dân dụng và thương mại trọn gói trên toàn quốc.</p>
                 <div class="contact-meta">
-                    <p>🏢 <strong>Trụ sở:</strong> 10 Công Trường Quốc Tế, Quận 3, TP. Hồ Chí Minh</p>
-                    <p>📞 <strong>Hotline Kinh Doanh:</strong> 1800 6777</p>
-                    <p>✉️ <strong>Email:</strong> contact@foyu.com.vn</p>
+                    <p>🏢 <strong>Văn phòng:</strong> 10 Công Trường Quốc Tế, Quận 3, TP. Hồ Chí Minh</p>
+                    <p>✉️ <strong>Email hỗ trợ:</strong> contact@foyu.com.vn</p>
                 </div>
             </div>
             <div class="contact-form">
-                <h3>Đăng Ký Nhận Bảng Giá Đại Lý</h3>
+                <h3>Đăng Ký Khảo Sát Công Trình</h3>
                 <form action="#">
-                    <input type="text" placeholder="Tên đơn vị / Khách hàng" required>
-                    <input type="tel" placeholder="Số điện thoại Zalo nhận báo giá" required>
-                    <textarea placeholder="Yêu cầu cụ thể về số lượng, thông số mã máy..." rows="4"></textarea>
+                    <input type="text" placeholder="Tên đơn vị / Họ tên khách hàng" required>
+                    <input type="tel" placeholder="Số điện thoại liên hệ" required>
+                    <textarea placeholder="Nội dung yêu cầu (Khảo sát nhà phố, dự án, chung cư...)" rows="4"></textarea>
                     <button type="submit" class="submit-btn">Gửi Yêu Cầu Cho FOYU</button>
                 </form>
             </div>
@@ -162,8 +164,8 @@
     <!-- CHÂN TRANG FOOTER -->
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ FOYU. All Rights Reserved. Bảo lưu mọi quyền.</p>
-            <p class="sub-footer">Đối tác phân phối Ủy Quyền Máy lạnh Daikin & Thiết bị vệ sinh thông minh.</p>
+            <p>&copy; 2026 CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ FOYU. All Rights Reserved.</p>
+            <p class="sub-footer">Nhà phân phối ủy quyền chính thức các dòng sản phẩm Daikin Air Conditioning.</p>
         </div>
     </footer>
 
