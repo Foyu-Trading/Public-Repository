@@ -1532,16 +1532,16 @@ div.WordSection1
 
 <div class=WordSection1>
 
-<p class=MsoNormal>/* Thi&#7871;t l&#7853;p c&#7845;u hình c&#417; b&#7843;n
-cho trình duy&#7879;t */<o:p></o:p></p>
+<p class=MsoNormal>/* Thi&#7871;t l&#7853;p c&#7845;u hÃ¬nh c&#417; b&#7843;n
+cho trÃ¬nh duy&#7879;t */<o:p></o:p></p>
 
 <p class=MsoNormal>* {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin: 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin: 0;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 0;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>box-sizing:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>box-sizing:
 border-box;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1550,17 +1550,17 @@ border-box;<o:p></o:p></p>
 
 <p class=MsoNormal>body {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-family:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-family:
 'Inter', sans-serif;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #2c3e50;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #2c3e50;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #f4f7f6;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>line-height: 1.6;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>line-height: 1.6;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>scroll-behavior:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>scroll-behavior:
 smooth;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1569,40 +1569,40 @@ smooth;<o:p></o:p></p>
 
 <p class=MsoNormal>.container {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>width: 100%;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>width: 100%;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>max-width: 1200px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>max-width: 1200px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin: 0 auto;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin: 0 auto;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 0 20px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 0 20px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>/* THANH NAVBAR THEO TÔNG &#272;&#7890;NG B&#7896; LOGO FOYU
-(XANH D&#431;&#416;NG CH&#7910; &#272;&#7840;O VÀ VÀNG KIM) */<o:p></o:p></p>
+<p class=MsoNormal>/* THANH NAVBAR THEO TÃ”NG &#272;&#7890;NG B&#7896; LOGO FOYU
+(XANH D&#431;&#416;NG CH&#7910; &#272;&#7840;O VÃ€ VÃ€NG KIM) */<o:p></o:p></p>
 
 <p class=MsoNormal>.navbar {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 rgba(255, 255, 255, 0.96);<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>box-shadow: 0 2px
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>box-shadow: 0 2px
 20px rgba(0,0,0,0.06);<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>position: fixed;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>position: fixed;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>top: 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>top: 0;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>left: 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>left: 0;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>width: 100%;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>width: 100%;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>z-index: 999;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>z-index: 999;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 12px 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 12px 0;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1610,12 +1610,12 @@ rgba(255, 255, 255, 0.96);<o:p></o:p></p>
 
 <p class=MsoNormal>.nav-container {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>justify-content:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>justify-content:
 space-between;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>align-items:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>align-items:
 center;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1624,15 +1624,15 @@ center;<o:p></o:p></p>
 
 <p class=MsoNormal>.logo-area {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>align-items:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>align-items:
 center;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-decoration:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-decoration:
 none;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>gap: 12px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>gap: 12px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1640,13 +1640,13 @@ none;<o:p></o:p></p>
 
 <p class=MsoNormal>.site-logo {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>height: 50px; /*
-&#272;i&#7873;u ch&#7881;nh kích th&#432;&#7899;c hi&#7875;n th&#7883; logo
-tròn */<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>height: 50px; /*
+&#272;i&#7873;u ch&#7881;nh kÃ­ch th&#432;&#7899;c hi&#7875;n th&#7883; logo
+trÃ²n */<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>width: auto;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>width: auto;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>object-fit:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>object-fit:
 contain;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1655,9 +1655,9 @@ contain;<o:p></o:p></p>
 
 <p class=MsoNormal>.logo-text {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>flex-direction:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>flex-direction:
 column;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1666,17 +1666,17 @@ column;<o:p></o:p></p>
 
 <p class=MsoNormal>.brand-name {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 22px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 22px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 700;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 700;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #0b4a8f; /*
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #0b4a8f; /*
 L&#7845;y s&#7855;c xanh d&#432;&#417;ng &#273;&#7853;m t&#7915; logo */<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>letter-spacing:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>letter-spacing:
 1px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>line-height: 1.2;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>line-height: 1.2;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1684,14 +1684,14 @@ L&#7845;y s&#7855;c xanh d&#432;&#417;ng &#273;&#7853;m t&#7915; logo */<o:p></o
 
 <p class=MsoNormal>.tagline {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 11px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 11px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #c99e32; /*
-L&#7845;y màu vàng ánh kim c&#7911;a dòng ch&#7843;y logo */<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #c99e32; /*
+L&#7845;y mÃ u vÃ ng Ã¡nh kim c&#7911;a dÃ²ng ch&#7843;y logo */<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>letter-spacing:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>letter-spacing:
 2px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1700,19 +1700,19 @@ L&#7845;y màu vàng ánh kim c&#7911;a dòng ch&#7843;y logo */<o:p></o:p></p>
 
 <p class=MsoNormal>.nav-links a {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-decoration:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-decoration:
 none;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #4a5568;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #4a5568;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin: 0 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin: 0 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 500;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 500;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transition: color
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transition: color
 0.2s;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 15px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1720,7 +1720,7 @@ none;<o:p></o:p></p>
 
 <p class=MsoNormal>.nav-links a:hover {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #0b4a8f;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #0b4a8f;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1728,28 +1728,28 @@ none;<o:p></o:p></p>
 
 <p class=MsoNormal>.hotline-btn {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background:
 linear-gradient(135deg, #0b4a8f, #1e70c5);<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 10px
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 10px
 20px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 30px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-decoration:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-decoration:
 none;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 14px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 14px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>box-shadow: 0 4px
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>box-shadow: 0 4px
 10px rgba(11, 74, 143, 0.2);<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transition:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transition:
 transform 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1758,7 +1758,7 @@ transform 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.hotline-btn:hover {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transform:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transform:
 translateY(-2px);<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1769,14 +1769,14 @@ translateY(-2px);<o:p></o:p></p>
 
 <p class=MsoNormal>.hero {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background:
 linear-gradient(rgba(11, 74, 143, 0.85), rgba(15, 34, 64, 0.95)),
 url('https://unsplash.com') no-repeat center center/cover;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 160px 0
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 160px 0
 100px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1784,7 +1784,7 @@ url('https://unsplash.com') no-repeat center center/cover;<o:p></o:p></p>
 
 <p class=MsoNormal>.hero-text {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>max-width: 750px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>max-width: 750px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1792,30 +1792,30 @@ url('https://unsplash.com') no-repeat center center/cover;<o:p></o:p></p>
 
 <p class=MsoNormal>.badge {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #c99e32;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 6px 14px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 6px 14px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 12px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 12px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-transform:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-transform:
 uppercase;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 4px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>letter-spacing:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>letter-spacing:
 1px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display:
 inline-block;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 20px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1824,13 +1824,13 @@ inline-block;<o:p></o:p></p>
 
 <p class=MsoNormal>.hero-text h1 {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 42px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 42px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 700;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 700;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>line-height: 1.3;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>line-height: 1.3;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 20px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1839,11 +1839,11 @@ inline-block;<o:p></o:p></p>
 
 <p class=MsoNormal>.hero-text p {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 17px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 17px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>opacity: 0.9;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>opacity: 0.9;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 35px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1852,9 +1852,9 @@ inline-block;<o:p></o:p></p>
 
 <p class=MsoNormal>.hero-actions {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>gap: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>gap: 15px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1862,20 +1862,20 @@ inline-block;<o:p></o:p></p>
 
 <p class=MsoNormal>.btn {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 12px
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 12px
 28px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 6px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-decoration:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-decoration:
 none;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transition: all
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transition: all
 0.3s;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1884,10 +1884,10 @@ none;<o:p></o:p></p>
 
 <p class=MsoNormal>.btn-primary {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #c99e32;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1895,7 +1895,7 @@ none;<o:p></o:p></p>
 
 <p class=MsoNormal>.btn-primary:hover {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #b08726;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1904,12 +1904,12 @@ none;<o:p></o:p></p>
 
 <p class=MsoNormal>.btn-secondary {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 transparent;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border: 1px solid
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border: 1px solid
 rgba(255,255,255,0.4);<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1918,19 +1918,19 @@ rgba(255,255,255,0.4);<o:p></o:p></p>
 
 <p class=MsoNormal>.btn-secondary:hover {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 rgba(255,255,255,0.1);<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>/* DANH SÁCH S&#7842;N PH&#7848;M &amp; C&#7844;U TRÚC THÔNG
+<p class=MsoNormal>/* DANH SÃCH S&#7842;N PH&#7848;M &amp; C&#7844;U TRÃšC THÃ”NG
 S&#7888; (STYLE GI&#7888;NG DAIKIN) */<o:p></o:p></p>
 
 <p class=MsoNormal>.products-section {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 80px 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 80px 0;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1938,10 +1938,10 @@ S&#7888; (STYLE GI&#7888;NG DAIKIN) */<o:p></o:p></p>
 
 <p class=MsoNormal>.section-header {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-align:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-align:
 center;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 50px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1950,11 +1950,11 @@ center;<o:p></o:p></p>
 
 <p class=MsoNormal>.section-header h2 {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 32px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 32px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #1a202c;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #1a202c;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 12px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -1963,7 +1963,7 @@ center;<o:p></o:p></p>
 
 <p class=MsoNormal>.section-header p {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #718096;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #718096;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1971,12 +1971,12 @@ center;<o:p></o:p></p>
 
 <p class=MsoNormal>.products-grid {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: grid;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: grid;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>   
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â 
 </span>grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>gap: 30px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>gap: 30px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -1984,26 +1984,26 @@ center;<o:p></o:p></p>
 
 <p class=MsoNormal>.product-item {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 12px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>box-shadow: 0 5px
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>box-shadow: 0 5px
 20px rgba(0,0,0,0.04);<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>overflow: hidden;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>overflow: hidden;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>flex-direction:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>flex-direction:
 column;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transition:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transition:
 transform 0.3s, box-shadow 0.3s;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border: 1px solid
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border: 1px solid
 #e2e8f0;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2012,10 +2012,10 @@ transform 0.3s, box-shadow 0.3s;<o:p></o:p></p>
 
 <p class=MsoNormal>.product-item:hover {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transform:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transform:
 translateY(-5px);<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>box-shadow: 0 12px
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>box-shadow: 0 12px
 30px rgba(0,0,0,0.08);<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2024,12 +2024,12 @@ translateY(-5px);<o:p></o:p></p>
 
 <p class=MsoNormal>.product-img {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>height: 240px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>height: 240px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>position:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>position:
 relative;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>overflow: hidden;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>overflow: hidden;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2037,11 +2037,11 @@ relative;<o:p></o:p></p>
 
 <p class=MsoNormal>.product-img img {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>width: 100%;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>width: 100%;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>height: 100%;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>height: 100%;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>object-fit: cover;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>object-fit: cover;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2049,22 +2049,22 @@ relative;<o:p></o:p></p>
 
 <p class=MsoNormal>.tag-status {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>position:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>position:
 absolute;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>top: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>top: 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>left: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>left: 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 4px 10px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 4px 10px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 11px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 11px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 3px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2079,14 +2079,14 @@ absolute;<o:p></o:p></p>
 
 <p class=MsoNormal>.product-detail {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 25px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 25px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>flex-direction:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>flex-direction:
 column;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>flex-grow: 1;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>flex-grow: 1;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2094,14 +2094,14 @@ column;<o:p></o:p></p>
 
 <p class=MsoNormal>.product-detail h3 {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 18px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 18px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #1a202c;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #1a202c;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 12px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2109,7 +2109,7 @@ column;<o:p></o:p></p>
 
 <p class=MsoNormal>.price-box {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 15px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2118,13 +2118,13 @@ column;<o:p></o:p></p>
 
 <p class=MsoNormal>.current-price {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 22px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 22px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 700;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 700;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #0b4a8f;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #0b4a8f;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-right:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-right:
 10px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2133,33 +2133,33 @@ column;<o:p></o:p></p>
 
 <p class=MsoNormal>.old-price {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 14px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 14px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-decoration:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-decoration:
 line-through;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #a0aec0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #a0aec0;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>/* KHUNG THÔNG S&#7888; K&#7928; THU&#7852;T RÕ RÀNG */<o:p></o:p></p>
+<p class=MsoNormal>/* KHUNG THÃ”NG S&#7888; K&#7928; THU&#7852;T RÃ• RÃ€NG */<o:p></o:p></p>
 
 <p class=MsoNormal>.mini-specs {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #f7fafc;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 6px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 20px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-left: 3px
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-left: 3px
 solid #c99e32;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2168,17 +2168,17 @@ solid #c99e32;<o:p></o:p></p>
 
 <p class=MsoNormal>.mini-specs h4 {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 13px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 13px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #4a5568;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #4a5568;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-transform:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-transform:
 uppercase;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 8px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>letter-spacing:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>letter-spacing:
 0.5px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2187,7 +2187,7 @@ uppercase;<o:p></o:p></p>
 
 <p class=MsoNormal>.mini-specs ul {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>list-style: none;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>list-style: none;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2195,11 +2195,11 @@ uppercase;<o:p></o:p></p>
 
 <p class=MsoNormal>.mini-specs ul li {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 13px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 13px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #4a5568;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #4a5568;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 5px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2208,32 +2208,32 @@ uppercase;<o:p></o:p></p>
 
 <p class=MsoNormal>.action-btn {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: block;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: block;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-align:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-align:
 center;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
-#24b259; /* Xanh lá d&#7877; ch&#7883;u kích thích chat hành &#273;&#7897;ng */<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
+#24b259; /* Xanh lÃ¡ d&#7877; ch&#7883;u kÃ­ch thÃ­ch chat hÃ nh &#273;&#7897;ng */<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 11px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 11px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 6px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-decoration:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-decoration:
 none;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 14px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 14px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transition:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transition:
 background 0.2s;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-top: auto;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-top: auto;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2241,23 +2241,23 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.action-btn:hover {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #1d9649;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>/* PH&#7846;N FORM KHÁCH HÀNG */<o:p></o:p></p>
+<p class=MsoNormal>/* PH&#7846;N FORM KHÃCH HÃ€NG */<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-area {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #0f2240;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 80px 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 80px 0;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2265,11 +2265,11 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-wrapper {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>flex-wrap: wrap;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>flex-wrap: wrap;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>gap: 50px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>gap: 50px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2277,9 +2277,9 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-text, .contact-form {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>flex: 1;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>flex: 1;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>min-width: 320px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>min-width: 320px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2287,9 +2287,9 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-text h2 {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 32px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 32px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 20px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2298,7 +2298,7 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-meta {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-top: 30px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-top: 30px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2306,10 +2306,10 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-meta p {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 12px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 15px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2317,15 +2317,15 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-form {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 35px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 35px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 8px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #2c3e50;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #2c3e50;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2333,10 +2333,10 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-form h3 {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 25px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #0f2240;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #0f2240;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2344,23 +2344,23 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.contact-form input, .contact-form textarea {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>width: 100%;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>width: 100%;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 12px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 12px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-bottom:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-bottom:
 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border: 1px solid
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border: 1px solid
 #cbd5e0;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 4px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-family:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-family:
 inherit;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 14px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 14px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2368,27 +2368,27 @@ inherit;<o:p></o:p></p>
 
 <p class=MsoNormal>.submit-btn {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>width: 100%;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>width: 100%;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #0b4a8f;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #fff;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #fff;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 12px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 12px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border: none;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border: none;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-weight: 600;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-weight: 600;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>border-radius:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>border-radius:
 4px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>cursor: pointer;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>cursor: pointer;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>transition:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>transition:
 background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
@@ -2397,28 +2397,28 @@ background 0.2s;<o:p></o:p></p>
 
 <p class=MsoNormal>.submit-btn:hover {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #073568;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>/* FOOTER CHÂN TRANG */<o:p></o:p></p>
+<p class=MsoNormal>/* FOOTER CHÃ‚N TRANG */<o:p></o:p></p>
 
 <p class=MsoNormal>footer {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>background-color:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>background-color:
 #0a1424;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>color: #718096;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>color: #718096;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>text-align:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>text-align:
 center;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>padding: 30px 0;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>padding: 30px 0;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 14px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 14px;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2426,11 +2426,11 @@ center;<o:p></o:p></p>
 
 <p class=MsoNormal>.sub-footer {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>font-size: 12px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>font-size: 12px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>margin-top: 5px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>margin-top: 5px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>opacity: 0.7;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>opacity: 0.7;<o:p></o:p></p>
 
 <p class=MsoNormal>}<o:p></o:p></p>
 
@@ -2441,39 +2441,39 @@ center;<o:p></o:p></p>
 
 <p class=MsoNormal>@media (max-width: 768px) {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>.nav-container {<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>.nav-container {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>       
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â 
 </span>flex-direction: column;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>        </span>gap: 15px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>gap: 15px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>}<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>}<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>.nav-links {<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>.nav-links {<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>        </span>display: flex;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>display: flex;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>        </span>flex-wrap:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>flex-wrap:
 wrap;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>       
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â 
 </span>justify-content: center;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>        </span>gap: 10px;<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>gap: 10px;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>}<o:p></o:p></p>
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>}<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>.nav-links a {
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>.nav-links a {
 margin: 0 5px; }<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>.hero { padding:
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>.hero { padding:
 180px 0 60px; text-align: center; }<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>.hero-actions {
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>.hero-actions {
 justify-content: center; }<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>.contact-wrapper {
+<p class=MsoNormal><span style='mso-spacerun:yes'>Â Â Â  </span>.contact-wrapper {
 flex-direction: column; }<o:p></o:p></p>
 
 <p class=MsoNormal>}</p>
