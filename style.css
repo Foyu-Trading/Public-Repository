@@ -102,11 +102,12 @@ body {
 
 /* BANNER CHÍNH */
 .hero {
-    background: linear-gradient(rgba(11, 74, 143, 0.75), rgba(15, 34, 64, 0.85)), url('https://unsplash.com') no-repeat center center/cover;
+    background: linear-gradient(rgba(11, 74, 143, 0.5), rgba(15, 34, 64, 0.65)), url('https://scr.vn') no-repeat center center/cover;
     padding: 180px 0 120px;
     color: #fff;
     text-align: center;
 }
+
 
 .hero-wrapper {
     display: flex;
