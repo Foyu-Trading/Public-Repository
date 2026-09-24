@@ -398,3 +398,67 @@ footer {
         flex-direction: column;
     }
 }
+.product-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #eef2f5;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.product-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff4d4f;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.product-specs {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.product-specs li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.product-specs li::before {
+    content: "•";
+    color: #005a9c; /* Màu xanh Daikin chủ đạo */
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.btn-order {
+    display: block;
+    text-align: center;
+    background: #005a9c;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.btn-order:hover {
+    background: #004473;
+}
