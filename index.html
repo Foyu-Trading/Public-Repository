@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <style>
-        /* --- ĐỊNH NGHĨA BIẾN MÀU SẮC THEO PHONG THỦY THƯƠNG HIỆU --- */
+        /* === BIẾN MÀU SẮC === */
         :root {
             --primary-blue: #164E87;
             --dark-bg: #0D1622;
@@ -24,17 +24,9 @@
             --accent-teal: #0FA3B1;
         }
 
-        /* --- THIẾT LẬP CHUNG --- */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
+        /* === THIẾT LẬP CHUNG === */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: var(--dark-bg);
@@ -43,7 +35,7 @@
             line-height: 1.6;
         }
 
-        /* --- THANH ĐIỀU HƯỚNG (HEADER) --- */
+        /* === HEADER === */
         header {
             display: flex;
             justify-content: space-between;
@@ -60,10 +52,7 @@
             transition: all 0.4s ease;
         }
 
-        header:hover {
-            padding: 15px 8%;
-            box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
-        }
+        header:hover { padding: 15px 8%; box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5); }
 
         .logo-area {
             display: flex;
@@ -73,9 +62,7 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .logo-area:hover {
-            transform: translateY(-2px);
-        }
+        .logo-area:hover { transform: translateY(-2px); }
 
         .brand-icon {
             width: 48px;
@@ -110,15 +97,8 @@
             animation: spinIcon 3s linear infinite;
         }
 
-        @keyframes spinIcon {
-            from { transform: rotate(45deg); }
-            to { transform: rotate(405deg); }
-        }
-
-        @keyframes pulse-ring {
-            0%, 100% { transform: scale(1); opacity: 0.8; }
-            50% { transform: scale(1.1); opacity: 0.4; }
-        }
+        @keyframes spinIcon { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+        @keyframes pulse-ring { 0%, 100% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(1.1); opacity: 0.4; } }
 
         .brand-name {
             font-size: 26px;
@@ -128,9 +108,7 @@
             font-family: 'Playfair Display', serif;
         }
 
-        .brand-name span {
-            color: var(--gold-metallic);
-        }
+        .brand-name span { color: var(--gold-metallic); }
 
         nav ul {
             display: flex;
@@ -159,16 +137,10 @@
             transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        nav ul li a:hover {
-            color: var(--gold-light);
-            transform: translateY(-2px);
-        }
+        nav ul li a:hover { color: var(--gold-light); transform: translateY(-2px); }
+        nav ul li a:hover::before { width: 100%; }
 
-        nav ul li a:hover::before {
-            width: 100%;
-        }
-
-        /* --- KHU VỰC BANNER CHÍNH (HERO SECTION) --- */
+        /* === HERO SECTION === */
         .hero {
             height: 100vh;
             display: flex;
@@ -221,14 +193,8 @@
         }
 
         @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(60px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(60px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .hero h1 {
@@ -293,39 +259,14 @@
             z-index: -1;
         }
 
-        .cta-btn:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 18px 60px rgba(212, 175, 55, 0.8);
-            color: var(--dark-bg);
-        }
+        .cta-btn:hover { transform: translateY(-6px); box-shadow: 0 18px 60px rgba(212, 175, 55, 0.8); color: var(--dark-bg); }
+        .cta-btn:hover::before { left: 0; }
+        .cta-btn.secondary { background: transparent; color: var(--gold-metallic); border: 2px solid var(--gold-metallic); }
+        .cta-btn.secondary:hover { background: var(--gold-metallic); color: var(--dark-bg); }
 
-        .cta-btn:hover::before {
-            left: 0;
-        }
-
-        .cta-btn.secondary {
-            background: transparent;
-            color: var(--gold-metallic);
-            border: 2px solid var(--gold-metallic);
-        }
-
-        .cta-btn.secondary:hover {
-            background: var(--gold-metallic);
-            color: var(--dark-bg);
-        }
-
-        /* --- PHẦN NỘI DUNG CHÍNH --- */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        section {
-            padding: 100px 0;
-            border-top: 1px solid rgba(212, 175, 55, 0.1);
-            position: relative;
-        }
+        /* === CONTENT SECTIONS === */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        section { padding: 100px 0; border-top: 1px solid rgba(212, 175, 55, 0.1); position: relative; }
 
         section h2 {
             font-size: 48px;
@@ -400,24 +341,11 @@
             background: rgba(22, 78, 135, 0.15);
         }
 
-        .feature-card:hover::before {
-            opacity: 1;
-        }
+        .feature-card:hover::before { opacity: 1; }
+        .feature-card h3 { font-size: 20px; color: var(--gold-metallic); margin-bottom: 15px; font-weight: 600; }
+        .feature-card p { color: var(--text-light); font-size: 15px; line-height: 1.7; }
 
-        .feature-card h3 {
-            font-size: 20px;
-            color: var(--gold-metallic);
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        .feature-card p {
-            color: var(--text-light);
-            font-size: 15px;
-            line-height: 1.7;
-        }
-
-        /* --- GIAO DIỆN CHATBOT AI & ZALO --- */
+        /* === FLOATING WIDGETS === */
         .floating-widgets {
             position: fixed;
             bottom: 30px;
@@ -445,15 +373,9 @@
             position: relative;
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-15px); }
-        }
+        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-15px); } }
 
-        .zalo-btn-float:hover {
-            transform: scale(1.2) translateY(-15px);
-            box-shadow: 0 10px 40px rgba(0, 104, 255, 0.9);
-        }
+        .zalo-btn-float:hover { transform: scale(1.2) translateY(-15px); box-shadow: 0 10px 40px rgba(0, 104, 255, 0.9); }
 
         .zalo-icon {
             width: 40px;
@@ -484,16 +406,8 @@
             position: relative;
         }
 
-        .chat-trigger:hover {
-            transform: scale(1.2) translateY(-15px);
-            box-shadow: 0 10px 40px rgba(22, 78, 135, 0.9);
-        }
-
-        .chat-trigger svg {
-            width: 40px;
-            height: 40px;
-            fill: var(--white);
-        }
+        .chat-trigger:hover { transform: scale(1.2) translateY(-15px); box-shadow: 0 10px 40px rgba(22, 78, 135, 0.9); }
+        .chat-trigger svg { width: 40px; height: 40px; fill: var(--white); }
 
         .chat-box {
             position: absolute;
@@ -512,19 +426,11 @@
         }
 
         @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        .chat-box.active {
-            display: flex;
-        }
+        .chat-box.active { display: flex; }
 
         .chat-header {
             background: linear-gradient(135deg, var(--primary-blue), #2c7be5);
@@ -535,12 +441,7 @@
             color: var(--white);
         }
 
-        .chat-header-info {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex: 1;
-        }
+        .chat-header-info { display: flex; align-items: center; gap: 15px; flex: 1; }
 
         .avatar-bot {
             width: 55px;
@@ -572,17 +473,8 @@
             animation: spinIcon 2s linear infinite;
         }
 
-        .bot-info h4 {
-            font-size: 16px;
-            font-weight: 700;
-            margin: 0;
-        }
-
-        .bot-info p {
-            font-size: 12px;
-            color: rgba(255, 255, 255, 0.85);
-            margin: 3px 0 0 0;
-        }
+        .bot-info h4 { font-size: 16px; font-weight: 700; margin: 0; }
+        .bot-info p { font-size: 12px; color: rgba(255, 255, 255, 0.85); margin: 3px 0 0 0; }
 
         .close-chat {
             background: none;
@@ -599,10 +491,7 @@
             justify-content: center;
         }
 
-        .close-chat:hover {
-            transform: rotate(90deg);
-            color: var(--gold-light);
-        }
+        .close-chat:hover { transform: rotate(90deg); color: var(--gold-light); }
 
         .chat-content {
             flex: 1;
@@ -617,18 +506,9 @@
             min-height: 350px;
         }
 
-        .chat-content::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .chat-content::-webkit-scrollbar-track {
-            background: transparent;
-        }
-
-        .chat-content::-webkit-scrollbar-thumb {
-            background: var(--gold-light);
-            border-radius: 10px;
-        }
+        .chat-content::-webkit-scrollbar { width: 6px; }
+        .chat-content::-webkit-scrollbar-track { background: transparent; }
+        .chat-content::-webkit-scrollbar-thumb { background: var(--gold-light); border-radius: 10px; }
 
         .msg {
             max-width: 85%;
@@ -639,14 +519,8 @@
         }
 
         @keyframes messageSlide {
-            from {
-                opacity: 0;
-                transform: translateY(15px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .msg.bot {
@@ -665,16 +539,9 @@
             box-shadow: 0 2px 12px rgba(22, 78, 135, 0.25);
         }
 
-        .msg.typing {
-            padding: 10px 14px;
-        }
+        .msg.typing { padding: 10px 14px; }
 
-        .typing-dots {
-            display: flex;
-            gap: 5px;
-            align-items: center;
-        }
-
+        .typing-dots { display: flex; gap: 5px; align-items: center; }
         .typing-dots span {
             width: 8px;
             height: 8px;
@@ -683,13 +550,8 @@
             animation: typing 1.4s infinite;
         }
 
-        .typing-dots span:nth-child(2) {
-            animation-delay: 0.2s;
-        }
-
-        .typing-dots span:nth-child(3) {
-            animation-delay: 0.4s;
-        }
+        .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
 
         @keyframes typing {
             0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
@@ -705,10 +567,7 @@
             gap: 12px;
         }
 
-        .chat-input-row {
-            display: flex;
-            gap: 8px;
-        }
+        .chat-input-row { display: flex; gap: 8px; }
 
         .chat-footer input {
             flex: 1;
@@ -742,10 +601,7 @@
             justify-content: center;
         }
 
-        .send-btn:hover {
-            transform: scale(1.08);
-            box-shadow: 0 4px 18px rgba(22, 78, 135, 0.4);
-        }
+        .send-btn:hover { transform: scale(1.08); box-shadow: 0 4px 18px rgba(22, 78, 135, 0.4); }
 
         .zalo-connect-btn {
             display: flex;
@@ -772,123 +628,40 @@
             box-shadow: 0 6px 20px rgba(0, 104, 255, 0.4);
         }
 
-        /* --- RESPONSIVE --- */
+        /* === RESPONSIVE === */
         @media (max-width: 768px) {
-            nav ul {
-                gap: 20px;
-            }
-
-            nav ul li a {
-                font-size: 13px;
-            }
-
-            .hero {
-                height: 80vh;
-                margin-top: 65px;
-            }
-
-            .hero h1 {
-                font-size: 42px;
-            }
-
-            .hero p {
-                font-size: 18px;
-            }
-
-            .hero-buttons {
-                flex-direction: column;
-            }
-
-            .cta-btn {
-                width: 100%;
-                max-width: 300px;
-            }
-
-            .chat-box {
-                width: 360px;
-                max-height: 550px;
-                bottom: 100px;
-            }
-
-            .floating-widgets {
-                bottom: 20px;
-                right: 20px;
-            }
-
-            .zalo-btn-float,
-            .chat-trigger {
-                width: 65px;
-                height: 65px;
-            }
-
-            section h2 {
-                font-size: 36px;
-            }
-
-            .features-grid {
-                grid-template-columns: 1fr;
-            }
+            nav ul { gap: 20px; }
+            nav ul li a { font-size: 13px; }
+            .hero { height: 80vh; margin-top: 65px; }
+            .hero h1 { font-size: 42px; }
+            .hero p { font-size: 18px; }
+            .hero-buttons { flex-direction: column; }
+            .cta-btn { width: 100%; max-width: 300px; }
+            .chat-box { width: 360px; max-height: 550px; bottom: 100px; }
+            .floating-widgets { bottom: 20px; right: 20px; }
+            .zalo-btn-float, .chat-trigger { width: 65px; height: 65px; }
+            section h2 { font-size: 36px; }
+            .features-grid { grid-template-columns: 1fr; }
         }
 
         @media (max-width: 480px) {
-            header {
-                padding: 14px 5%;
-            }
-
-            .brand-name {
-                font-size: 20px;
-            }
-
-            nav {
-                display: none;
-            }
-
-            .hero {
-                height: 60vh;
-                margin-top: 60px;
-            }
-
-            .hero h1 {
-                font-size: 32px;
-            }
-
-            .hero p {
-                font-size: 15px;
-                letter-spacing: 2px;
-            }
-
-            .chat-box {
-                width: 95vw;
-                max-width: 340px;
-                max-height: 450px;
-                bottom: 95px;
-            }
-
-            .floating-widgets {
-                bottom: 15px;
-                right: 15px;
-            }
-
-            .zalo-btn-float,
-            .chat-trigger {
-                width: 60px;
-                height: 60px;
-            }
-
-            section h2 {
-                font-size: 28px;
-                letter-spacing: 1px;
-            }
-
-            .section-content {
-                font-size: 15px;
-            }
+            header { padding: 14px 5%; }
+            .brand-name { font-size: 20px; }
+            nav { display: none; }
+            .hero { height: 60vh; margin-top: 60px; }
+            .hero h1 { font-size: 32px; }
+            .hero p { font-size: 15px; letter-spacing: 2px; }
+            .chat-box { width: 95vw; max-width: 340px; max-height: 450px; bottom: 95px; }
+            .floating-widgets { bottom: 15px; right: 15px; }
+            .zalo-btn-float, .chat-trigger { width: 60px; height: 60px; }
+            section h2 { font-size: 28px; letter-spacing: 1px; }
+            .section-content { font-size: 15px; }
         }
     </style>
 </head>
 <body>
 
-    <!-- THANH ĐIỀU HƯỚNG -->
+    <!-- HEADER -->
     <header>
         <div class="logo-area" onclick="scrollToTop()">
             <div class="brand-icon"></div>
@@ -904,7 +677,7 @@
         </nav>
     </header>
 
-    <!-- BANNER CHÍNH -->
+    <!-- HERO -->
     <section class="hero" id="home">
         <div class="hero-content">
             <h1>FOYU - Precious Flow</h1>
@@ -916,7 +689,7 @@
         </div>
     </section>
 
-    <!-- PHẦN VỀ CHÚNG TÔI -->
+    <!-- ABOUT -->
     <section id="about">
         <div class="container">
             <h2>Về Chúng Tôi</h2>
@@ -944,7 +717,7 @@
         </div>
     </section>
 
-    <!-- PHẦN DỊCH VỤ -->
+    <!-- SERVICES -->
     <section id="services">
         <div class="container">
             <h2>Dịch Vụ Của Chúng Tôi</h2>
@@ -955,7 +728,7 @@
                     <li>✓ Xử lý hành chính và thủ tục pháp lý</li>
                     <li>✓ Triển khai giải pháp toàn diện</li>
                     <li>✓ Hỗ trợ kỹ thuật 24/7</li>
-                    <li>✓ Đối tác tin cậy cho sự phát triển bền vững</li>
+                    <li>✓ Đối t��c tin cậy cho sự phát triển bền vững</li>
                 </ul>
             </div>
             <div class="features-grid">
@@ -987,7 +760,7 @@
         </div>
     </section>
 
-    <!-- PHẦN LIÊN HỆ -->
+    <!-- CONTACT -->
     <section id="contact">
         <div class="container">
             <h2>Liên Hệ Với Chúng Tôi</h2>
@@ -999,29 +772,24 @@
                     <p style="font-size: 18px; font-weight: 600; color: var(--gold-metallic); margin-bottom: 15px;">
                         📱 Zalo: <a href="tel:0986721139" style="color: var(--gold-metallic); text-decoration: none;">0986 721 139</a>
                     </p>
-                    <p style="font-size: 16px; color: var(--text-light);">
-                        💬 Chat AI: Hãy nhấn nút chat ở góc phải màn hình để bắt đầu
-                    </p>
+                    <p style="color: var(--text-light);">Hoặc nhắn tin trực tiếp với AI Chatbot của chúng tôi bên dưới</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FLOATING WIDGETS (ZALO + CHATBOT) -->
+    <!-- FLOATING WIDGETS -->
     <div class="floating-widgets">
-        <!-- Nút Zalo -->
         <div class="zalo-btn-float" onclick="contactZalo()" title="Liên Hệ Zalo">
             <div class="zalo-icon">Z</div>
         </div>
-
-        <!-- Nút Chatbot AI -->
         <div class="chat-trigger" onclick="toggleChat()" title="Mở Chat">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12h-8v-2h8v2zm0-4h-8V8h8v2z"/>
             </svg>
         </div>
 
-        <!-- Chat Box -->
+        <!-- CHAT BOX -->
         <div class="chat-box" id="chatBox">
             <div class="chat-header">
                 <div class="chat-header-info">
@@ -1045,59 +813,45 @@
             <div class="chat-footer">
                 <div class="chat-input-row">
                     <input type="text" id="chatInput" placeholder="Nhập tin nhắn..." onkeypress="handleChatKeyPress(event)">
-                    <button class="send-btn" onclick="sendChatMessage()">➤</button>
+                    <button class="send-btn" onclick="sendChatMessage()">Gửi</button>
                 </div>
-                <a href="https://zalo.me/0986721139" target="_blank" class="zalo-connect-btn" onclick="event.stopPropagation()">
-                    <span>📞</span> Liên Hệ Zalo OA
+                <a href="https://zalo.me/0986721139" target="_blank" class="zalo-connect-btn">
+                    <span>📞</span> Liên Hệ Zalo
                 </a>
             </div>
         </div>
     </div>
 
     <script>
-        // ===== CHATBOT AI FUNCTIONS =====
+        // Chat functions
         function toggleChat() {
-            const chatBox = document.getElementById('chatBox');
-            chatBox.classList.toggle('active');
-            if (chatBox.classList.contains('active')) {
-                setTimeout(() => document.getElementById('chatInput').focus(), 100);
-            }
+            document.getElementById('chatBox').classList.toggle('active');
         }
 
         function openChat() {
-            const chatBox = document.getElementById('chatBox');
-            chatBox.classList.add('active');
-            setTimeout(() => document.getElementById('chatInput').focus(), 100);
+            document.getElementById('chatBox').classList.add('active');
+            document.getElementById('chatInput').focus();
         }
 
         function closeChat() {
-            const chatBox = document.getElementById('chatBox');
-            chatBox.classList.remove('active');
+            document.getElementById('chatBox').classList.remove('active');
         }
 
         function sendChatMessage() {
             const input = document.getElementById('chatInput');
             const message = input.value.trim();
-
             if (!message) return;
-
             addMessage(message, 'user');
             input.value = '';
-            input.focus();
-
             showTypingIndicator();
-
             setTimeout(() => {
                 removeTypingIndicator();
-                const response = getAIResponse(message);
-                addMessage(response, 'bot');
-            }, 1200);
+                addMessage(getAIResponse(message), 'bot');
+            }, 1500);
         }
 
         function handleChatKeyPress(event) {
-            if (event.key === 'Enter') {
-                sendChatMessage();
-            }
+            if (event.key === 'Enter') sendChatMessage();
         }
 
         function addMessage(text, sender) {
@@ -1126,65 +880,38 @@
 
         function getAIResponse(message) {
             const lowerMsg = message.toLowerCase();
-
             const responses = {
-                'hello|xin chào|hi|chào': 'Xin chào! 😊 Tôi là trợ lý AI của FOYU. Bạn cần hỗ trợ gì hôm nay?',
-                'services|dịch vụ|cung cấp|gì': 'FOYU cung cấp:\n✓ Tư vấn kinh doanh\n✓ Xử lý hành chính\n✓ Triển khai giải pháp\n✓ Hỗ trợ kỹ thuật 24/7\n✓ Phân tích dữ liệu\n✓ Đối tác quốc tế',
-                'contact|liên hệ|phone|số điện thoại|zalo': '📱 Liên hệ ngay:\nZalo: 0986 721 139\n📧 Email: info@foyu.vn\n🏢 Hoặc nhấn "Liên Hệ Zalo OA" bên dưới',
-                'price|giá|cost|bao nhiêu': 'Giá cả của chúng tôi rất cạnh tranh và phù hợp với ngân sách bạn. Để biết giá chi tiết, vui lòng liên hệ Zalo: 0986 721 139 để được tư vấn! 💰',
-                'bye|tạm biệt|goodbye|cảm ơn': 'Cảm ơn bạn đã liên hệ! 👋 Hẹn gặp lại. Hãy liên hệ Zalo (0986 721 139) nếu cần hỗ trợ ngay!',
-                'foyu|công ty|chúng tôi': 'FOYU là công ty TNHH Thương Mại Dịch Vụ chuyên cung cấp giải pháp kinh doanh toàn diện. Chúng tôi có đội ngũ chuyên nghiệp sẵn sàng phục vụ 24/7! 💼',
-                'hỗ trợ|support|giúp': 'Tôi sẵn sàng giúp bạn! 🤝 Bạn có thể hỏi về dịch vụ, liên hệ, hoặc bất cứ điều gì khác. Nếu cần tư vấn chi tiết, liên hệ Zalo!',
-                'giờ làm|mấy giờ|open': 'FOYU hỗ trợ khách hàng 24/7. Bạn có thể liên hệ bất kỳ lúc nào qua Zalo hoặc Chat AI này! ⏰'
+                'hello|xin chào|hi|chào': 'Xin chào! Tôi là trợ lý AI của FOYU. Bạn cần hỗ trợ gì hôm nay? 😊',
+                'services|dịch vụ|cung cấp': 'FOYU cung cấp:\n1) Tư vấn kinh doanh chuyên sâu\n2) Xử lý hành chính & thủ tục pháp lý\n3) Triển khai giải pháp\n4) Hỗ trợ kỹ thuật 24/7',
+                'contact|liên hệ|phone|số điện thoại|zalo': 'Liên hệ:\n📱 Zalo: 0986 721 139\n🏢 Để tư vấn chi tiết, vui lòng liên hệ trực tiếp!',
+                'price|giá|cost|giá bao nhiêu': 'Giá cả của chúng tôi rất cạnh tranh. Vui lòng liên hệ Zalo để biết giá cụ thể!',
+                'bye|tạm biệt|goodbye|cảm ơn': 'Cảm ơn bạn! 👋 Hẹn gặp lại. Liên hệ Zalo nếu cần ngay!',
+                'foyu|công ty': 'FOYU là công ty TNHH Thương Mại Dịch Vụ chuyên cung cấp giải pháp kinh doanh quốc tế.',
             };
-
             for (const [key, value] of Object.entries(responses)) {
-                const keywords = key.split('|');
-                if (keywords.some(keyword => lowerMsg.includes(keyword))) {
-                    return value;
-                }
+                if (key.split('|').some(k => lowerMsg.includes(k))) return value;
             }
-
-            return 'Cảm ơn bạn! 😊 Vui lòng liên hệ Zalo (0986 721 139) để được tư vấn chi tiết hơn. Chúng tôi sẵn sàng giúp bạn! 💪';
+            return 'Cảm ơn! 😊 Liên hệ Zalo (0986 721 139) để được tư vấn chi tiết hơn!';
         }
 
-        // ===== ZALO FUNCTIONS =====
         function contactZalo() {
             window.open('https://zalo.me/0986721139', '_blank');
         }
 
-        // ===== SCROLL FUNCTIONS =====
         function scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Smooth scroll for navigation
+        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 const href = this.getAttribute('href');
                 if (href !== '#') {
                     e.preventDefault();
                     const target = document.querySelector(href);
-                    if (target) {
-                        target.scrollIntoView({ behavior: 'smooth' });
-                    }
+                    if (target) target.scrollIntoView({ behavior: 'smooth' });
                 }
             });
-        });
-
-        // Close chat when clicking outside
-        document.addEventListener('click', function (event) {
-            const chatBox = document.getElementById('chatBox');
-            const floatingWidgets = document.querySelector('.floating-widgets');
-
-            if (floatingWidgets && !floatingWidgets.contains(event.target) && chatBox.classList.contains('active')) {
-                closeChat();
-            }
-        });
-
-        // Initialize
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('✨ FOYU - Precious Flow đã sẵn sàng!');
         });
     </script>
 
