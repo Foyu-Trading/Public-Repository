@@ -119,6 +119,12 @@
             margin-bottom: 10px;
             letter-spacing: -2px;
             text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            animation: pulse-banner 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-banner {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
         }
 
         .banner-text {
@@ -459,6 +465,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            border: 2px solid var(--gold);
             font-size: 22px;
         }
 
@@ -631,8 +638,8 @@
     <!-- BANNER -->
     <div class="banner" id="home">
         <div class="banner-content">
-            <div class="banner-date">11/11</div>
-            <div class="banner-text">KHAI TRƯƠNG FOYU</div>
+            <div class="banner-date" id="bannerDate">11/11</div>
+            <div class="banner-text" id="bannerText">KHAI TRƯƠNG FOYU</div>
         </div>
     </div>
 
@@ -854,6 +861,91 @@
     </div>
 
     <script>
+        // Cập nhật ngày lễ tự động
+        function updatePromoDate() {
+            const today = new Date();
+            const month = String(today.getMonth() + 1).padStart(2, '0');
+            const date = String(today.getDate()).padStart(2, '0');
+            const dateString = `${date}/${month}`;
+            
+            const bannerDate = document.getElementById('bannerDate');
+            const bannerText = document.getElementById('bannerText');
+            
+            bannerDate.textContent = dateString;
+            
+            // Các ngày lễ/promotion đặc biệt
+            const specialDays = {
+                '01/01': '🎆 CHÚC MỪNG NĂM MỚI',
+                '14/02': '💝 NGÀY YÊU THƯƠNG',
+                '08/03': '👩 NGÀY QUỐC TẾ NỮ',
+                '01/04': '🎉 NGÀY CỬU DÂN',
+                '30/04': '🇻🇳 NGÀY TƯỞNG NIỆM',
+                '01/05': '💪 NGÀY LAO ĐỘNG',
+                '01/06': '👧 NGÀY TRẺ EM',
+                '02/09': '🇻🇳 NGÀY QUỐC KỲ',
+                '09/11': '👨‍🏫 NGÀY NHÀ GIÁO',
+                '11/11': '🛍️ NGÀY KHAI TRƯƠNG',
+                '20/11': '👩‍🎓 NGÀY NHÀ GIÁO VIỆT NAM',
+                '25/12': '🎄 NGÀY GIÁNG SINH',
+            };
+            
+            if (specialDays[dateString]) {
+                bannerText.textContent = specialDays[dateString];
+            } else {
+                bannerText.textContent = 'KHAI TRƯƠNG FOYU';
+            }
+        }
+
+        // Load ngài từ API thời gian miễn phí (worldtimeapi.org)
+        async function loadDateFromAPI() {
+            try {
+                const response = await fetch('https://worldtimeapi.org/api/timezone/Asia/Ho_Chi_Minh');
+                const data = await response.json();
+                const date = new Date(data.datetime);
+                
+                // Cập nhật ngày từ API
+                const month = String(date.getMonth() + 1).padStart(2, '0');
+                const day = String(date.getDate()).padStart(2, '0');
+                const dateString = `${day}/${month}`;
+                
+                const bannerDate = document.getElementById('bannerDate');
+                const bannerText = document.getElementById('bannerText');
+                
+                bannerDate.textContent = dateString;
+                
+                const specialDays = {
+                    '01/01': '🎆 CHÚC MỪNG NĂM MỚI',
+                    '14/02': '💝 NGÀY YÊU THƯƠNG',
+                    '08/03': '👩 NGÀY QUỐC TẾ NỮ',
+                    '01/04': '🎉 NGÀY CỬU DÂN',
+                    '30/04': '🇻🇳 NGÀY TƯỞNG NIỆM',
+                    '01/05': '💪 NGÀY LAO ĐỘNG',
+                    '01/06': '👧 NGÀY TRẺ EM',
+                    '02/09': '🇻🇳 NGÀY QUỐC KỲ',
+                    '09/11': '👨‍🏫 NGÀY NHÀ GIÁO',
+                    '11/11': '🛍️ NGÀY KHAI TRƯƠNG',
+                    '20/11': '👩‍🎓 NGÀY NHÀ GIÁO VIỆT NAM',
+                    '25/12': '🎄 NGÀY GIÁNG SINH',
+                };
+                
+                if (specialDays[dateString]) {
+                    bannerText.textContent = specialDays[dateString];
+                } else {
+                    bannerText.textContent = 'KHAI TRƯƠNG FOYU';
+                }
+            } catch (error) {
+                console.log('API không khả dụng, sử dụng thời gian cục bộ');
+                updatePromoDate();
+            }
+        }
+
+        // Gọi hàm khi trang load
+        loadDateFromAPI();
+        
+        // Cập nhật mỗi phút để đảm bảo ngày luôn chính xác
+        setInterval(loadDateFromAPI, 60000);
+
+        // Chat functions
         function toggleChat() { document.getElementById('chatBox').classList.toggle('active'); }
         function openChat() {
             document.getElementById('chatBox').classList.add('active');
