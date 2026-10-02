@@ -4,110 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#164E87">
-    <meta name="description" content="FOYU - Công ty Thương Mại Dịch Vụ Chuyên Nghiệp | Giải Pháp Kinh Doanh Toàn Diện | Tư Vấn 24/7">
+    <meta name="description" content="FOYU - Công ty Thương Mại Dịch Vụ Chuyên Nghiệp | Giải Pháp Kinh Doanh Toàn Diện">
     <meta name="robots" content="index, follow">
-    <title>FOYU | Giải Pháp Kinh Doanh Chuyên Nghiệp & Toàn Diện</title>
+    <title>FOYU | Giải Pháp Kinh Doanh Chuyên Nghiệp</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #164E87;
             --primary-light: #2c7be5;
+            --red-accent: #FF3D3D;
             --dark: #0D1622;
-            --dark-light: #1a2332;
+            --light-bg: #F8F9FA;
             --gold: #D4AF37;
-            --gold-light: #E5C07B;
-            --accent: #0FA3B1;
-            --text-light: #F4F6F9;
-            --text-muted: #A8B5C4;
+            --text-dark: #333333;
+            --text-light: #666666;
             --white: #ffffff;
             --zalo: #0068FF;
-            --success: #00D084;
-            --bg-gradient: linear-gradient(135deg, #0D1622 0%, #1a2332 100%);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         body {
             font-family: 'Poppins', sans-serif;
-            background: var(--bg-gradient);
-            color: var(--text-light);
+            background: var(--white);
+            color: var(--text-dark);
             line-height: 1.6;
             overflow-x: hidden;
         }
 
-        /* ===== HEADER PREMIUM ===== */
+        /* ===== HEADER ===== */
         header {
             position: fixed;
             top: 0;
             width: 100%;
-            height: 80px;
+            height: 70px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 60px;
-            background: rgba(13, 22, 34, 0.95);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+            padding: 0 50px;
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
             z-index: 1000;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
         }
-
-        header:hover { box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5); }
 
         .logo {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 10px;
             cursor: pointer;
-            transition: transform 0.3s ease;
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--text-dark);
+            text-decoration: none;
         }
 
-        .logo:hover { transform: translateY(-2px); }
-
-        .logo-icon {
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 800;
-            color: var(--gold);
-            font-size: 24px;
-            box-shadow: 0 8px 24px rgba(22, 78, 135, 0.4);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .logo-icon::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.1), transparent);
-            border-radius: 12px;
-        }
-
-        .logo-text {
-            display: flex;
-            flex-direction: column;
-            line-height: 1.2;
-        }
-
-        .logo-text .brand { font-size: 22px; font-weight: 700; color: var(--white); letter-spacing: 2px; }
-        .logo-text .tagline { font-size: 11px; color: var(--gold); font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+        .logo span { color: var(--primary); }
 
         nav ul {
             display: flex;
-            gap: 50px;
+            gap: 40px;
             list-style: none;
         }
 
         nav a {
-            color: var(--text-light);
+            color: var(--text-dark);
             text-decoration: none;
             font-size: 14px;
             font-weight: 500;
@@ -122,396 +85,289 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: linear-gradient(90deg, var(--gold), var(--accent));
+            background: var(--red-accent);
             transition: width 0.3s ease;
         }
 
-        nav a:hover { color: var(--gold); }
+        nav a:hover { color: var(--red-accent); }
         nav a:hover::after { width: 100%; }
 
-        /* ===== HERO SECTION PREMIUM ===== */
-        .hero {
-            min-height: 100vh;
+        /* ===== BANNER SECTION ===== */
+        .banner {
+            margin-top: 70px;
+            height: 400px;
+            background: linear-gradient(135deg, rgba(22, 78, 135, 0.8), rgba(44, 123, 229, 0.8)), 
+                        url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=400&fit=crop&q=85');
+            background-size: cover;
+            background-position: center;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 80px;
-            position: relative;
-            overflow: hidden;
-            padding: 60px 20px;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: 
-                radial-gradient(circle at 20% 50%, rgba(22, 78, 135, 0.15) 0%, transparent 50%),
-                radial-gradient(circle at 80% 50%, rgba(15, 163, 177, 0.1) 0%, transparent 50%);
-            pointer-events: none;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            max-width: 900px;
             text-align: center;
-            animation: slideDown 1s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(40px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .hero h1 {
-            font-size: 76px;
-            font-weight: 800;
-            margin-bottom: 20px;
-            letter-spacing: -1px;
-            font-family: 'Playfair Display', serif;
-            background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, var(--accent) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1.1;
-        }
-
-        .hero-subtitle {
-            font-size: 18px;
-            color: var(--text-muted);
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-weight: 600;
-        }
-
-        .hero p {
-            font-size: 20px;
-            color: var(--text-light);
-            margin-bottom: 50px;
-            line-height: 1.8;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 25px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-bottom: 80px;
-        }
-
-        .btn {
-            padding: 16px 45px;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 15px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: none;
-            text-transform: uppercase;
-            letter-spacing: 1px;
             position: relative;
             overflow: hidden;
         }
 
-        .btn-primary {
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+        .banner-content {
             color: var(--white);
-            box-shadow: 0 12px 40px rgba(22, 78, 135, 0.4);
+            z-index: 2;
         }
 
-        .btn-primary:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 60px rgba(22, 78, 135, 0.6);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--gold);
-            border: 2px solid var(--gold);
-        }
-
-        .btn-secondary:hover {
-            background: var(--gold);
-            color: var(--dark);
-            box-shadow: 0 12px 40px rgba(212, 175, 55, 0.4);
-        }
-
-        .hero-stats {
-            display: flex;
-            gap: 80px;
-            justify-content: center;
-            margin-top: 100px;
-        }
-
-        .stat {
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 48px;
+        .banner-date {
+            font-size: 72px;
             font-weight: 800;
-            color: var(--gold);
             margin-bottom: 10px;
+            letter-spacing: -2px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
         }
 
-        .stat-text {
-            font-size: 14px;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        .banner-text {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
-        /* ===== SECTIONS ===== */
+        /* ===== CONTAINER ===== */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        /* ===== SECTION ===== */
         section {
-            padding: 120px 60px;
-            position: relative;
+            padding: 80px 50px;
         }
 
         .section-header {
             text-align: center;
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
 
         .section-header h2 {
-            font-size: 56px;
-            font-weight: 800;
-            font-family: 'Playfair Display', serif;
-            color: var(--gold);
-            margin-bottom: 20px;
-            letter-spacing: -1px;
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .section-header .separator {
+            width: 60px;
+            height: 4px;
+            background: var(--red-accent);
+            margin: 0 auto 20px;
         }
 
         .section-header p {
-            font-size: 18px;
-            color: var(--text-muted);
+            font-size: 16px;
+            color: var(--text-light);
             max-width: 600px;
             margin: 0 auto;
         }
 
+        /* ===== PRODUCTS GRID ===== */
+        .products-section {
+            background: var(--light-bg);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+
+        .product-card {
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #f0f0f0, #e8e8e8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: #ddd;
+            position: relative;
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: var(--red-accent);
+            color: var(--white);
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            z-index: 2;
+        }
+
+        .product-content {
+            padding: 20px;
+        }
+
+        .product-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .product-price {
+            font-size: 13px;
+            color: var(--red-accent);
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+
+        .product-original {
+            font-size: 12px;
+            color: var(--text-light);
+            text-decoration: line-through;
+        }
+
+        /* ===== CATEGORY SECTION ===== */
+        .category-section {
+            background: var(--white);
+        }
+
+        .category-list {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .category-btn {
+            padding: 12px 30px;
+            border: 2px solid var(--text-dark);
+            background: var(--white);
+            color: var(--text-dark);
+            border-radius: 25px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .category-btn:hover {
+            background: var(--text-dark);
+            color: var(--white);
+        }
+
+        /* ===== PROMO SECTION ===== */
+        .promo-section {
+            background: linear-gradient(135deg, #B8E6F0 0%, #D4F1F4 100%);
+            padding: 60px 50px;
+        }
+
+        .promo-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .promo-text h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .promo-text p {
+            font-size: 15px;
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .promo-btn {
+            display: inline-block;
+            padding: 14px 40px;
+            background: var(--text-dark);
+            color: var(--white);
+            border: none;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .promo-btn:hover {
+            background: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .promo-image {
+            width: 100%;
+            height: 350px;
+            background: linear-gradient(135deg, #E8F4F8, #D4E8F0);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 120px;
+            color: rgba(0, 0, 0, 0.1);
+        }
+
         /* ===== ABOUT SECTION ===== */
-        .about {
-            background: linear-gradient(180deg, transparent, rgba(22, 78, 135, 0.05));
+        .about-section {
+            background: var(--light-bg);
         }
 
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 80px;
+            gap: 60px;
             align-items: center;
         }
 
         .about-text h3 {
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 700;
-            margin-bottom: 30px;
-            color: var(--text-light);
-        }
-
-        .about-text p {
-            font-size: 16px;
-            color: var(--text-muted);
-            margin-bottom: 25px;
-            line-height: 1.8;
+            color: var(--text-dark);
+            margin-bottom: 20px;
         }
 
         .about-features {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 15px;
         }
 
-        .feature-item {
-            display: flex;
-            gap: 20px;
-            padding: 20px;
-            background: rgba(22, 78, 135, 0.1);
-            border-radius: 15px;
-            border-left: 4px solid var(--gold);
-            transition: all 0.3s ease;
+        .about-feature {
+            padding: 15px;
+            background: var(--white);
+            border-left: 4px solid var(--red-accent);
+            border-radius: 5px;
         }
 
-        .feature-item:hover {
-            background: rgba(22, 78, 135, 0.15);
-            transform: translateX(10px);
-        }
-
-        .feature-icon {
-            font-size: 32px;
-            min-width: 50px;
-            text-align: center;
-        }
-
-        .feature-text h4 {
-            font-size: 16px;
+        .about-feature h4 {
+            font-size: 15px;
+            color: var(--text-dark);
+            margin-bottom: 5px;
             font-weight: 600;
-            color: var(--gold);
-            margin-bottom: 8px;
         }
 
-        .feature-text p {
-            font-size: 14px;
-            color: var(--text-muted);
+        .about-feature p {
+            font-size: 13px;
+            color: var(--text-light);
             margin: 0;
         }
-
-        .about-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-
-        .about-card {
-            background: linear-gradient(135deg, rgba(22, 78, 135, 0.1), rgba(15, 163, 177, 0.05));
-            padding: 40px;
-            border-radius: 20px;
-            border: 1px solid rgba(212, 175, 55, 0.2);
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-
-        .about-card:hover {
-            transform: translateY(-10px);
-            border-color: var(--gold);
-            box-shadow: 0 20px 60px rgba(22, 78, 135, 0.2);
-        }
-
-        .about-card-icon {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .about-card h3 {
-            font-size: 20px;
-            color: var(--gold);
-            margin-bottom: 15px;
-        }
-
-        .about-card p {
-            font-size: 14px;
-            color: var(--text-muted);
-        }
-
-        /* ===== SERVICES SECTION ===== */
-        .services {
-            background: linear-gradient(180deg, rgba(22, 78, 135, 0.05), transparent);
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 30px;
-        }
-
-        .service-card {
-            background: linear-gradient(135deg, rgba(22, 78, 135, 0.15), rgba(15, 163, 177, 0.08));
-            padding: 50px 30px;
-            border-radius: 20px;
-            border: 1px solid rgba(212, 175, 55, 0.15);
-            text-align: center;
-            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .service-card::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -50%;
-            width: 200px;
-            height: 200px;
-            background: radial-gradient(circle, rgba(212, 175, 55, 0.1), transparent);
-            border-radius: 50%;
-            transition: all 0.4s ease;
-        }
-
-        .service-card:hover {
-            transform: translateY(-15px);
-            border-color: var(--gold);
-            box-shadow: 0 30px 80px rgba(22, 78, 135, 0.3);
-        }
-
-        .service-card:hover::before {
-            top: -20%;
-            right: -20%;
-        }
-
-        .service-icon {
-            font-size: 56px;
-            margin-bottom: 25px;
-            position: relative;
-            z-index: 1;
-        }
-
-        .service-card h3 {
-            font-size: 22px;
-            color: var(--gold);
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-
-        .service-card p {
-            font-size: 15px;
-            color: var(--text-muted);
-            line-height: 1.7;
-            position: relative;
-            z-index: 1;
-        }
-
-        /* ===== CONTACT SECTION ===== */
-        .contact {
-            background: linear-gradient(135deg, rgba(22, 78, 135, 0.1), rgba(15, 163, 177, 0.05));
-            border-top: 1px solid rgba(212, 175, 55, 0.2);
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-        }
-
-        .contact-content {
-            max-width: 700px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .contact-info {
-            display: flex;
-            gap: 60px;
-            justify-content: center;
-            margin: 60px 0;
-            flex-wrap: wrap;
-        }
-
-        .contact-method {
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .contact-method-icon {
-            font-size: 48px;
-            margin-bottom: 15px;
-        }
-
-        .contact-method h3 {
-            font-size: 18px;
-            color: var(--gold);
-            margin-bottom: 10px;
-        }
-
-        .contact-method a {
-            color: var(--text-light);
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 600;
-            transition: color 0.3s ease;
-        }
-
-        .contact-method a:hover { color: var(--gold); }
 
         /* ===== FLOATING WIDGETS ===== */
         .floating-widgets {
@@ -521,52 +377,52 @@
             z-index: 9999;
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 12px;
         }
 
         .float-btn {
-            width: 75px;
-            height: 75px;
+            width: 65px;
+            height: 65px;
             border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            font-size: 28px;
             display: flex;
             align-items: center;
             justify-content: center;
-            cursor: pointer;
-            border: none;
-            font-size: 32px;
             transition: all 0.3s ease;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-            animation: float-animation 3s ease-in-out infinite;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            animation: float-anim 3s ease-in-out infinite;
         }
 
-        @keyframes float-animation {
+        @keyframes float-anim {
             0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-15px); }
+            50% { transform: translateY(-10px); }
         }
 
         .float-btn:hover {
-            transform: scale(1.1) translateY(-15px);
+            transform: scale(1.1);
         }
 
         .zalo-btn {
-            background: linear-gradient(135deg, var(--zalo), #0052cc);
+            background: var(--zalo);
             color: var(--white);
         }
 
         .chat-btn {
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            background: var(--primary);
             color: var(--white);
         }
 
         .chat-box {
             position: absolute;
-            bottom: 110px;
+            bottom: 100px;
             right: 0;
-            width: 420px;
-            height: 600px;
+            width: 380px;
+            height: 550px;
             background: var(--white);
-            border-radius: 20px;
-            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+            border-radius: 15px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
             display: none;
             flex-direction: column;
             overflow: hidden;
@@ -582,7 +438,7 @@
 
         .chat-header {
             background: linear-gradient(135deg, var(--primary), var(--primary-light));
-            padding: 25px;
+            padding: 20px;
             color: var(--white);
             display: flex;
             align-items: center;
@@ -592,26 +448,39 @@
         .chat-header-info {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
         }
 
         .chat-avatar {
-            width: 50px;
-            height: 50px;
+            width: 44px;
+            height: 44px;
             background: rgba(255, 255, 255, 0.2);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 2px solid var(--gold);
-            font-size: 24px;
+            font-size: 22px;
+        }
+
+        .chat-header-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header-text strong {
+            font-size: 14px;
+        }
+
+        .chat-header-text small {
+            font-size: 11px;
+            opacity: 0.9;
         }
 
         .close-btn {
             background: none;
             border: none;
             color: var(--white);
-            font-size: 28px;
+            font-size: 24px;
             cursor: pointer;
             transition: transform 0.2s;
         }
@@ -624,15 +493,15 @@
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 12px;
             background: #f8f9fa;
         }
 
         .message {
             max-width: 85%;
-            padding: 12px 16px;
-            border-radius: 16px;
-            font-size: 14px;
+            padding: 12px 15px;
+            border-radius: 12px;
+            font-size: 13px;
             line-height: 1.5;
             animation: msgSlide 0.3s ease;
         }
@@ -646,84 +515,101 @@
             background: var(--white);
             color: var(--text-dark);
             align-self: flex-start;
-            border-left: 4px solid var(--primary);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-left: 3px solid var(--primary);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
         }
 
         .message.user {
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            background: var(--primary);
             color: var(--white);
             align-self: flex-end;
         }
 
         .chat-input {
-            padding: 20px;
+            padding: 15px;
             background: var(--white);
             border-top: 1px solid #e0e0e0;
             display: flex;
-            gap: 10px;
+            gap: 8px;
         }
 
         .chat-input input {
             flex: 1;
-            padding: 12px 16px;
-            border: 1.5px solid #ddd;
-            border-radius: 24px;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
             outline: none;
-            font-size: 14px;
+            font-size: 13px;
             transition: all 0.2s;
         }
 
         .chat-input input:focus {
             border-color: var(--primary);
-            box-shadow: 0 0 12px rgba(22, 78, 135, 0.2);
+            box-shadow: 0 0 8px rgba(22, 78, 135, 0.2);
         }
 
         .send-btn {
-            padding: 12px 20px;
+            padding: 10px 18px;
             background: var(--primary);
             color: var(--white);
             border: none;
-            border-radius: 24px;
+            border-radius: 20px;
             cursor: pointer;
             font-weight: 600;
+            font-size: 12px;
             transition: all 0.2s;
         }
 
         .send-btn:hover {
             background: var(--primary-light);
-            transform: scale(1.05);
         }
 
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 40px 50px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        footer a {
+            color: var(--gold);
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover { color: var(--white); }
+
         /* ===== RESPONSIVE ===== */
-        @media (max-width: 1200px) {
-            section { padding: 80px 40px; }
-            nav ul { gap: 30px; }
-            .about-content { grid-template-columns: 1fr; gap: 50px; }
-            .hero-stats { gap: 50px; }
+        @media (max-width: 1024px) {
+            .products-grid { grid-template-columns: repeat(3, 1fr); }
+            .about-content { grid-template-columns: 1fr; gap: 40px; }
+            .promo-content { grid-template-columns: 1fr; gap: 40px; }
+            section { padding: 60px 40px; }
+            header { padding: 0 30px; }
         }
 
         @media (max-width: 768px) {
-            header { padding: 0 30px; height: 70px; }
             nav ul { display: none; }
-            .hero { margin-top: 70px; }
-            .hero h1 { font-size: 48px; }
-            .hero p { font-size: 16px; }
-            .hero-buttons { flex-direction: column; gap: 15px; }
-            .btn { width: 100%; max-width: 300px; }
-            .hero-stats { flex-direction: column; gap: 40px; }
-            section { padding: 60px 20px; }
-            .section-header h2 { font-size: 36px; }
-            .services-grid { grid-template-columns: 1fr; }
-            .about-grid { grid-template-columns: 1fr; }
-            .contact-info { flex-direction: column; gap: 30px; }
+            .banner-date { font-size: 48px; }
+            .banner-text { font-size: 22px; }
+            .products-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+            .category-list { flex-direction: column; align-items: center; }
+            .category-btn { width: 200px; }
+            section { padding: 40px 20px; }
+            header { padding: 0 20px; }
+            .chat-box { width: 90vw; }
         }
 
         @media (max-width: 480px) {
-            .logo-text .brand { font-size: 16px; }
-            .logo-text .tagline { font-size: 9px; }
-            .hero h1 { font-size: 36px; }
-            .chat-box { width: 95vw; max-width: 340px; height: 500px; }
+            .banner { height: 250px; }
+            .banner-date { font-size: 36px; }
+            .banner-text { font-size: 16px; }
+            .products-grid { grid-template-columns: 1fr; }
+            .float-btn { width: 55px; height: 55px; font-size: 24px; }
+            .chat-box { width: 95vw; height: 450px; }
         }
     </style>
 </head>
@@ -731,201 +617,224 @@
 
     <!-- HEADER -->
     <header>
-        <div class="logo" onclick="scrollToTop()">
-            <div class="logo-icon">FY</div>
-            <div class="logo-text">
-                <div class="brand">FOYU</div>
-                <div class="tagline">Precious Flow</div>
-            </div>
-        </div>
+        <a class="logo" onclick="scrollToTop(); return false;">FO<span>YU</span></a>
         <nav>
             <ul>
                 <li><a href="#home">Trang Chủ</a></li>
-                <li><a href="#about">Giới Thiệu</a></li>
-                <li><a href="#services">Dịch Vụ</a></li>
+                <li><a href="#products">Sản Phẩm</a></li>
+                <li><a href="#about">Về Chúng Tôi</a></li>
                 <li><a href="#contact">Liên Hệ</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- HERO -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <div class="hero-subtitle">Giải Pháp Kinh Doanh Toàn Diện</div>
-            <h1>Đẩy Mạnh Sự Phát Triển Kinh Doanh Của Bạn</h1>
-            <p>Với đội ngũ chuyên gia hàng đầu, FOYU cung cấp các giải pháp kinh doanh toàn diện, từ tư vấn chiến lược đến triển khai thực tế. Chúng tôi cam kết hỗ trợ bạn 24/7 để đạt được mục tiêu kinh doanh.</p>
-            
-            <div class="hero-buttons">
-                <button class="btn btn-primary" onclick="openChat()">💬 Tư Vấn Miễn Phí</button>
-                <button class="btn btn-secondary" onclick="contactZalo()">📱 Liên Hệ Zalo</button>
+    <!-- BANNER -->
+    <div class="banner" id="home">
+        <div class="banner-content">
+            <div class="banner-date">11/11</div>
+            <div class="banner-text">KHAI TRƯƠNG FOYU</div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Giải Pháp Kinh Doanh</h2>
+                <div class="separator"></div>
+                <p>Khám phá các dịch vụ chuyên nghiệp của FOYU</p>
             </div>
 
-            <div class="hero-stats">
-                <div class="stat">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-text">Khách Hàng Hài Lòng</div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge">HOT</div>
+                        📋
+                    </div>
+                    <div class="product-content">
+                        <div class="product-name">Tư Vấn Kinh Doanh</div>
+                        <div class="product-price">Từ 1.000.000đ</div>
+                        <div class="product-original">Giá gốc: 1.500.000đ</div>
+                    </div>
                 </div>
-                <div class="stat">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-text">Hỗ Trợ Chuyên Nghiệp</div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge">HOT</div>
+                        📜
+                    </div>
+                    <div class="product-content">
+                        <div class="product-name">Xử Lý Hành Chính</div>
+                        <div class="product-price">Từ 500.000đ</div>
+                        <div class="product-original">Giá gốc: 800.000đ</div>
+                    </div>
                 </div>
-                <div class="stat">
-                    <div class="stat-number">95%</div>
-                    <div class="stat-text">Tỷ Lệ Thành Công</div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge">HOT</div>
+                        🚀
+                    </div>
+                    <div class="product-content">
+                        <div class="product-name">Triển Khai Dự Án</div>
+                        <div class="product-price">Liên hệ</div>
+                        <div class="product-original">Theo yêu cầu</div>
+                    </div>
                 </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge">NEW</div>
+                        🛠️
+                    </div>
+                    <div class="product-content">
+                        <div class="product-name">Hỗ Trợ Kỹ Thuật</div>
+                        <div class="product-price">24/7</div>
+                        <div class="product-original">Miễn phí tư vấn</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-list">
+                <button class="category-btn" onclick="openChat()">💬 Tư Vấn Ngay</button>
+                <button class="category-btn" onclick="contactZalo()">📱 Liên Hệ Zalo</button>
+                <button class="category-btn">📊 Xem Chi Tiết</button>
+                <button class="category-btn">🌍 Đối Tác Quốc Tế</button>
+                <button class="category-btn">✨ Khuyến Mãi Đặc Biệt</button>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT -->
-    <section class="about" id="about">
+    <!-- PROMO SECTION -->
+    <section class="promo-section">
+        <div class="container">
+            <div class="promo-content">
+                <div class="promo-text">
+                    <h3>Phát Triển Kinh Doanh Bền Vững</h3>
+                    <p>Chúng tôi cung cấp các giải pháp toàn diện giúp doanh nghiệp của bạn phát triển một cách bền vững. Với đội ngũ chuyên gia giàu kinh nghiệm, FOYU sẵn sàng hỗ trợ bạn 24/7 để đạt được mục tiêu kinh doanh.</p>
+                    <button class="promo-btn" onclick="openChat()">Tư Vấn Miễn Phí</button>
+                </div>
+                <div class="promo-image">🎯</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
         <div class="container">
             <div class="section-header">
-                <h2>Về FOYU</h2>
-                <p>Công ty Thương Mại Dịch Vụ Hàng Đầu Tại Việt Nam</p>
+                <h2>Tại Sao Chọn FOYU</h2>
+                <div class="separator"></div>
+                <p>Dấu ấn của sự chuyên nghiệp và uy tín</p>
             </div>
 
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Tại Sao Chọn FOYU?</h3>
-                    <p>FOYU không chỉ là một công ty dịch vụ thông thường. Chúng tôi là đối tác tin cậy của các doanh nghiệp, từ startup nhỏ đến các công ty lớn, trong hành trình phát triển bền vững.</p>
-                    
+                    <h3>Những Ưu Điểm Nổi Bật</h3>
                     <div class="about-features">
-                        <div class="feature-item">
-                            <div class="feature-icon">⚡</div>
-                            <div class="feature-text">
-                                <h4>Nhanh Chóng & Hiệu Quả</h4>
-                                <p>Xử lý mọi yêu cầu trong thời gian sớm nhất với chất lượng tuyệt vời</p>
-                            </div>
+                        <div class="about-feature">
+                            <h4>⚡ Nhanh Chóng & Hiệu Quả</h4>
+                            <p>Xử lý nhanh chóng, đem lại kết quả tốt nhất cho khách hàng</p>
                         </div>
-                        <div class="feature-item">
-                            <div class="feature-icon">🎯</div>
-                            <div class="feature-text">
-                                <h4>Chuyên Nghiệp & Uy Tín</h4>
-                                <p>Đội ngũ chuyên gia có kinh nghiệm hơn 10 năm trong ngành</p>
-                            </div>
+                        <div class="about-feature">
+                            <h4>🎯 Chuyên Nghiệp & Uy Tín</h4>
+                            <p>Đội ngũ chuyên gia có hơn 10 năm kinh nghiệm trong ngành</p>
                         </div>
-                        <div class="feature-item">
-                            <div class="feature-icon">🔒</div>
-                            <div class="feature-text">
-                                <h4>Bảo Mật & An Toàn</h4>
-                                <p>Bảo vệ thông tin khách hàng với các tiêu chuẩn quốc tế cao nhất</p>
-                            </div>
+                        <div class="about-feature">
+                            <h4>🔒 Bảo Mật & An Toàn</h4>
+                            <p>Bảo vệ thông tin khách hàng theo tiêu chuẩn quốc tế</p>
+                        </div>
+                        <div class="about-feature">
+                            <h4>🌍 Mạng Lưới Rộng</h4>
+                            <p>Kết nối toàn cầu với các đối tác uy tín hàng đầu</p>
+                        </div>
+                        <div class="about-feature">
+                            <h4>💎 Chất Lượng Hàng Đầu</h4>
+                            <p>Cam kết dịch vụ tốt nhất, vượt kỳ vọng của khách hàng</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="about-grid">
-                    <div class="about-card">
-                        <div class="about-card-icon">👥</div>
-                        <h3>Đội Ngũ Chuyên Gia</h3>
-                        <p>Các chuyên gia hàng đầu với kinh nghiệm quốc tế</p>
-                    </div>
-                    <div class="about-card">
-                        <div class="about-card-icon">🌍</div>
-                        <h3>Mạng Lưới Rộng</h3>
-                        <p>Kết nối toàn cầu với các đối tác uy tín</p>
-                    </div>
-                    <div class="about-card">
-                        <div class="about-card-icon">🏆</div>
-                        <h3>Giải Thưởng Nhiều</h3>
-                        <p>Công nhận từ các tổ chức quốc tế hàng đầu</p>
+                <div class="about-text">
+                    <h3>Các Dịch Vụ Chính</h3>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <h4>📋 Tư Vấn Kinh Doanh</h4>
+                            <p>Chiến lược phát triển toàn diện, từ phân tích thị trường đến lập kế hoạch</p>
+                        </div>
+                        <div class="about-feature">
+                            <h4>📜 Xử Lý Hành Chính</h4>
+                            <p>Giải quyết thủ tục pháp lý, đăng ký kinh doanh chuyên nghiệp</p>
+                        </div>
+                        <div class="about-feature">
+                            <h4>🚀 Triển Khai Giải Pháp</h4>
+                            <p>Thực hiện dự án từ lên kế hoạch đến hoàn thành cuối cùng</p>
+                        </div>
+                        <div class="about-feature">
+                            <h4>🛠️ Hỗ Trợ Kỹ Thuật</h4>
+                            <p>Hỗ trợ 24/7 đảm bảo hệ thống luôn hoạt động ổn định</p>
+                        </div>
+                        <div class="about-feature">
+                            <h4>📊 Phân Tích Dữ Liệu</h4>
+                            <p>Báo cáo chi tiết giúp tối ưu hóa hoạt động kinh doanh</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVICES -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <h2>Dịch Vụ Chính</h2>
-                <p>Các giải pháp toàn diện được thiết kế riêng cho nhu cầu của bạn</p>
-            </div>
-
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">📋</div>
-                    <h3>Tư Vấn Kinh Doanh</h3>
-                    <p>Chiến lược phát triển kinh doanh toàn diện, từ phân tích thị trường đến lập kế hoạch chi tiết</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📜</div>
-                    <h3>Xử Lý Hành Chính</h3>
-                    <p>Giải quyết toàn bộ thủ tục pháp lý, đăng ký kinh doanh, và các hồ sơ chính thức</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🚀</div>
-                    <h3>Triển Khai Giải Pháp</h3>
-                    <p>Thực hiện các dự án từ lên kế hoạch, tổ chức cho đến kỳ nghiệm thu chính thức</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🛠️</div>
-                    <h3>Hỗ Trợ Kỹ Thuật</h3>
-                    <p>Cung cấp hỗ trợ kỹ thuật 24/7 đảm bảo hệ thống luôn hoạt động trơn tru</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Phân Tích Dữ Liệu</h3>
-                    <p>Cung cấp báo cáo chi tiết và phân tích dữ liệu để tối ưu hóa hoạt động kinh doanh</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🌍</div>
-                    <h3>Đối Tác Quốc Tế</h3>
-                    <p>Kết nối và phát triển mối quan hệ kinh doanh quốc tế, mở rộng thị trường</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
+    <!-- CONTACT SECTION -->
+    <section id="contact" style="background: #f8f9fa; text-align: center;">
         <div class="container">
             <div class="section-header">
                 <h2>Liên Hệ Với Chúng Tôi</h2>
+                <div class="separator"></div>
                 <p>Sẵn sàng hỗ trợ bạn bất cứ lúc nào</p>
             </div>
 
-            <div class="contact-content">
-                <p style="font-size: 18px; color: var(--text-light); margin-bottom: 30px;">
-                    Hãy liên hệ với FOYU ngay hôm nay để nhận tư vấn miễn phí từ các chuyên gia hàng đầu của chúng tôi
-                </p>
-
-                <div class="contact-info">
-                    <div class="contact-method">
-                        <div class="contact-method-icon">📱</div>
-                        <h3>Zalo</h3>
-                        <a href="https://zalo.me/0986721139" target="_blank">0986 721 139</a>
-                    </div>
-                    <div class="contact-method">
-                        <div class="contact-method-icon">💬</div>
-                        <h3>Chat AI</h3>
-                        <a href="#" onclick="openChat(); return false;">Mở Chat Ngay</a>
-                    </div>
-                    <div class="contact-method">
-                        <div class="contact-method-icon">⏰</div>
-                        <h3>Thời Gian</h3>
-                        <a href="#">24/7 - Mọi Ngày</a>
-                    </div>
+            <div style="display: flex; gap: 60px; justify-content: center; flex-wrap: wrap; margin-top: 50px;">
+                <div>
+                    <div style="font-size: 48px; margin-bottom: 15px;">📱</div>
+                    <h4 style="font-size: 16px; margin-bottom: 10px;">Zalo</h4>
+                    <a href="https://zalo.me/0986721139" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">0986 721 139</a>
+                </div>
+                <div>
+                    <div style="font-size: 48px; margin-bottom: 15px;">💬</div>
+                    <h4 style="font-size: 16px; margin-bottom: 10px;">Chat AI</h4>
+                    <a href="#" onclick="openChat(); return false;" style="color: var(--primary); text-decoration: none; font-weight: 600;">Mở Chat Ngay</a>
+                </div>
+                <div>
+                    <div style="font-size: 48px; margin-bottom: 15px;">⏰</div>
+                    <h4 style="font-size: 16px; margin-bottom: 10px;">Thời Gian</h4>
+                    <p style="margin: 0; color: var(--text-light); font-weight: 600;">24/7 - Mọi Ngày</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 FOYU - Công ty TNHH Thương Mại Dịch Vụ | 
+            <a href="#home">Trang Chủ</a> • 
+            <a href="#products">Sản Phẩm</a> • 
+            <a href="#about">Về Chúng Tôi</a> • 
+            <a href="#contact">Liên Hệ</a>
+        </p>
+    </footer>
 
     <!-- FLOATING WIDGETS -->
     <div class="floating-widgets">
         <button class="float-btn zalo-btn" onclick="contactZalo()" title="Liên Hệ Zalo">Z</button>
         <button class="float-btn chat-btn" onclick="toggleChat()" title="Mở Chat">💬</button>
 
-        <!-- CHAT BOX -->
         <div class="chat-box" id="chatBox">
             <div class="chat-header">
                 <div class="chat-header-info">
                     <div class="chat-avatar">🤖</div>
-                    <div>
-                        <div style="font-weight: 600;">FOYU AI</div>
-                        <div style="font-size: 12px; opacity: 0.9;">Trực tuyến</div>
+                    <div class="chat-header-text">
+                        <strong>FOYU AI</strong>
+                        <small>Trực tuyến</small>
                     </div>
                 </div>
                 <button class="close-btn" onclick="closeChat()">&times;</button>
@@ -956,10 +865,8 @@
             const input = document.getElementById('chatInput');
             const msg = input.value.trim();
             if (!msg) return;
-
             addMsg(msg, 'user');
             input.value = '';
-
             setTimeout(() => {
                 addMsg(getAIResponse(msg), 'bot');
             }, 1000);
@@ -982,16 +889,16 @@
             const lower = msg.toLowerCase();
             const responses = {
                 'hello|xin chào|hi|chào': 'Xin chào! 😊 Bạn cần hỗ trợ gì?',
-                'dịch vụ|services': 'FOYU cung cấp:\n• Tư vấn kinh doanh\n• Xử lý hành chính\n• Triển khai dự án\n• Hỗ trợ kỹ thuật 24/7\n• Phân tích dữ liệu\n• Kết nối quốc tế',
+                'dịch vụ|services': 'FOYU cung cấp:\n• Tư vấn kinh doanh\n• Xử lý hành chính\n• Triển khai dự án\n• Hỗ trợ kỹ thuật 24/7\n• Phân tích dữ liệu',
                 'liên hệ|contact|zalo': 'Liên hệ: 0986 721 139 (Zalo)\n24/7 sẵn sàng hỗ trợ!',
-                'giá|price|cost': 'Giá cạnh tranh, liên hệ trực tiếp để có báo giá chi tiết!',
-                'bye|cảm ơn|thanks': 'Cảm ơn bạn! 👋 Hẹn gặp lại!',
+                'giá|price': 'Giá cạnh tranh, liên hệ để có báo giá chi tiết!',
+                'bye|cảm ơn|thanks': 'Cảm ơn! 👋 Hẹn gặp lại!',
             };
 
             for (const [keys, resp] of Object.entries(responses)) {
                 if (keys.split('|').some(k => lower.includes(k))) return resp;
             }
-            return 'Cảm ơn câu hỏi! Liên hệ Zalo (0986 721 139) để được tư vấn chi tiết hơn!';
+            return 'Cảm ơn câu hỏi! Liên hệ Zalo (0986 721 139) để được tư vấn chi tiết!';
         }
 
         function contactZalo() { window.open('https://zalo.me/0986721139', '_blank'); }
